@@ -64,7 +64,7 @@ endif()
 if(MSVC)
 	# This option must match the settings used in your program, in particular if you
 	# are linking statically
-	option(STATIC_CRT          "Link the static CRT libraries"                      ON)
+	option(STATIC_CRT          "Link the static CRT libraries"                      OFF)
 
 	# If you want to embed a copy of libssh2 into libgit2, pass a
 	# path to libssh2
