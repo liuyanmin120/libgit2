@@ -15,7 +15,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake")
 # Optional subsystems
 option(BUILD_SHARED_LIBS       "Build Shared Library (OFF for Static)"                  ON)
 option(BUILD_TESTS             "Build Tests using the Clar suite"                       ON)
-option(BUILD_EXAMPLES          "Build library usage example apps"                      OFF)
+option(BUILD_EXAMPLES          "Build library usage example apps"                      ON)
 option(BUILD_FUZZERS           "Build the fuzz targets"                                OFF)
 
 # Suggested functionality that may not be available on a per-platform basis
